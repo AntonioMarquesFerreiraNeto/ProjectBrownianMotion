@@ -1,0 +1,41 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Views.Maui.Controls;assembly=SkiaSharp.Views.Maui"
+             x:Class="ProjectBrownianMotion.Mvvm.Views.BrownianMotionView"
+             Title="BrownianMotionView">
+    <StackLayout Padding="20" Spacing="20">
+        <Label Text="Sistema de simulação de gráfico"
+               FontSize="24"
+               HorizontalOptions="Center" />
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <!-- Coluna da esquerda para o gráfico -->
+            <Frame Grid.Column="0"
+                   Margin="0,0,10,0"
+                   Padding="20"
+                   CornerRadius="10"
+                   BackgroundColor="White"
+                   BorderColor="Black"
+                   HasShadow="True">
+                <GraphicsView x:Name="DrawableGraphic"
+                              Margin="1"
+                              Drawable="{Binding Drawable}"/>
+            </Frame>
+
+            <!-- Coluna da direita para o formulário e botão -->
+            <StackLayout Grid.Column="1" Spacing="10">
+                <Entry x:Name="precoInicialEntry" Placeholder="Informe o preço inicial" Keyboard="Numeric" />
+                <Entry x:Name="votatilidadeEntry" Placeholder="Informe a volatilidade média (%)" Keyboard="Numeric" />
+                <Entry x:Name="retornoEntry" Placeholder="Informe o retorno médio (%)" Keyboard="Numeric" />
+                <Entry x:Name="diasEntry" Placeholder="Informe o tempo (dias)" Keyboard="Numeric" />
+
+                <Button Text="Gerar simulação" Clicked="GerarSimulacaoClicked" />
+            </StackLayout>
+        </Grid>
+    </StackLayout>
+</ContentPage>

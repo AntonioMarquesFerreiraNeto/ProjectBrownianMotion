@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net7.0-ios
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ProjectBrownianMotion
+build_property.ProjectDir = C:\Users\anton\source\repos\ProjectBrownianMotion\ProjectBrownianMotion\
+
+[C:/Users/anton/source/repos/ProjectBrownianMotion/ProjectBrownianMotion/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjectBrownianMotion.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/anton/source/repos/ProjectBrownianMotion/ProjectBrownianMotion/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjectBrownianMotion.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/anton/source/repos/ProjectBrownianMotion/ProjectBrownianMotion/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjectBrownianMotion.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/anton/source/repos/ProjectBrownianMotion/ProjectBrownianMotion/Mvvm/Views/BrownianMotionView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjectBrownianMotion.Mvvm.Views.BrownianMotionView.xaml
+build_metadata.AdditionalFiles.TargetPath = Mvvm\Views\BrownianMotionView.xaml
+build_metadata.AdditionalFiles.RelativePath = Mvvm\Views\BrownianMotionView.xaml
+
+[C:/Users/anton/source/repos/ProjectBrownianMotion/ProjectBrownianMotion/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjectBrownianMotion.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/anton/source/repos/ProjectBrownianMotion/ProjectBrownianMotion/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = ProjectBrownianMotion.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
