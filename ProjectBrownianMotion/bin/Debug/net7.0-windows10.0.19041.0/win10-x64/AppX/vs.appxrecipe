@@ -29,13 +29,13 @@
     <AppXManifest Include="C:\Users\anton\source\repos\ProjectBrownianMotion\ProjectBrownianMotion\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-10T01:01:04.060</Modified>
+      <Modified>2024-02-10T01:34:11.585</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\anton\source\repos\ProjectBrownianMotion\ProjectBrownianMotion\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-10T00:56:42.604</Modified>
+      <Modified>2024-02-10T01:34:11.069</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\source\repos\ProjectBrownianMotion\ProjectBrownianMotion\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectBrownianMotion.runtimeconfig.json">
       <PackagePath>ProjectBrownianMotion.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\source\repos\ProjectBrownianMotion\ProjectBrownianMotion\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectBrownianMotion.dll">
       <PackagePath>ProjectBrownianMotion.dll</PackagePath>
-      <Modified>2024-02-10T01:01:02.703</Modified>
+      <Modified>2024-02-10T01:34:10.107</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\source\repos\ProjectBrownianMotion\ProjectBrownianMotion\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>ProjectBrownianMotion.exe</PackagePath>
-      <Modified>2024-02-10T01:01:02.715</Modified>
+      <Modified>2024-02-10T01:34:10.119</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.3\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -995,7 +995,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\anton\source\repos\ProjectBrownianMotion\ProjectBrownianMotion\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectBrownianMotion.deps.json">
       <PackagePath>ProjectBrownianMotion.deps.json</PackagePath>
-      <Modified>2024-02-10T01:01:03.881</Modified>
+      <Modified>2024-02-10T01:34:11.441</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.59\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

@@ -12,10 +12,19 @@ public partial class BrownianMotionView : ContentPage {
 
     //Método que irá retornar o gráfico após o click do usuário no botão.
     private void GerarSimulacaoClicked(object sender, EventArgs e) {
-        double precoInicial = Convert.ToDouble(precoInicialEntry.Text);
-        double votatilidade = Convert.ToDouble(votatilidadeEntry.Text);
-        double retorno = Convert.ToDouble(retornoEntry.Text);
-        int dias = Convert.ToInt32(diasEntry.Text);
+        double precoInicial;
+        double votatilidade;
+        double retorno;
+        int dias;
+
+        // Realiza a conversão dos valores das entradas, verificando se são válidos
+        if (!double.TryParse(precoInicialEntry.Text, out precoInicial) ||
+            !double.TryParse(votatilidadeEntry.Text, out votatilidade) ||
+            !double.TryParse(retornoEntry.Text, out retorno) ||
+            !int.TryParse(diasEntry.Text, out dias)) {
+            // Se a conversão falhar, exibe uma mensagem para o usuário ou tome outra ação adequada.
+            return;
+        }
 
         var brownianMotion = new BrownianMotion {
             PrecoInicial = precoInicial,
@@ -30,5 +39,6 @@ public partial class BrownianMotionView : ContentPage {
             DrawableGraphic.Drawable = new DrawableGraphic(prices);
         }
     }
+
 }
 
